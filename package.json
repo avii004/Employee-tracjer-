@@ -1,0 +1,30 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "schema": "node schema.js",
+    "seed": "node seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avii004/Employee-tracker-"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://avii004.github.io/Employee-tracker-/"
+  },
+  "homepage": "https://github.com/avii004/Employee-tracker-#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.1",
+    "figlet": "^1.5.2",
+    "inquirer": "^9.0.0",
+    "mysql2": "^2.3.3"
+  }
+}
